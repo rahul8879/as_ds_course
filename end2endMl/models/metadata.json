@@ -1,0 +1,19 @@
+{
+  "feature_names": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "target_names": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "model": "KNeighborsClassifier",
+  "scaler": "StandardScaler",
+  "params": {
+    "n_neighbors": 5,
+    "weights": "distance"
+  }
+}
