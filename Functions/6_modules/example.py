@@ -1,6 +1,6 @@
 def add(a, b):
     """
-    This program adds two numbers and return the result
+    Go n dont study
     """
     result = a + b
     return result
