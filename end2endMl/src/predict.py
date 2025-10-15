@@ -52,6 +52,7 @@ def main():
     label, conf, probs = predict_sample(feats)
     print(f"Prediction: {label} (confidence={conf:.3f})")
     print("Class probabilities:")
+    print("h")
     for k, v in probs.items():
         print(f"  - {k}: {v:.3f}")
 
